@@ -3,7 +3,7 @@ my_each(array)
 i = 0
   while i < array.length
     yield
-    my_collection<<(array[i])
+    (array[i])do || my_collect<< {}
     i += 1
   end
 return my_collection
